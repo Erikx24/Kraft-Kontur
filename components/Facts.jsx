@@ -37,9 +37,9 @@ const Facts = () => {
           <Image src='/facts/1.png' width={266} height={187} quality={60} priority={true} className='' alt={''}/>
           <div className='absolute text-white w-full h-full flex flex-col justify-center items-end p-4'>
             <span className='flex flex-row items-center text-end fact font-inter'>
-            {isVisible && <CountUp end={200} />}+
+            {isVisible && <CountUp end={100} />}+
             </span>
-            <p className='text-end info font-inter text-main-200'>Trainingsstunden</p>
+            <p className='text-end info font-inter text-main-200'>erstellte Trainingspläne</p>
           </div>
         </div>
 
