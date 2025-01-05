@@ -114,8 +114,8 @@ export const InfiniteMovingCards = ({
         width={100}
         height={100}
         quality={10}
-        loading="lazy"
-        priority={false}
+        loading="eager"
+        priority={true}
         />
         )}
         <span className="text-sm leading-[1.6] caption font-inter text-white font-normal">

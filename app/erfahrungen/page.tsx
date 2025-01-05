@@ -48,7 +48,7 @@ const page = () => {
             <Image
               src={item.imagePath as string}
               alt="Profile"
-              className="w-10 h-10 rounded-full mr-4 object-cover"
+              className="w-10 h-10 rounded-full mr-4 object-cover pointer-events-none"
               width={100}
               height={100}
               quality={10}
