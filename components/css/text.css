@@ -1,0 +1,31 @@
+.info {
+    font-size: 20px;
+    font-weight: 300;
+    @apply tracking-wide
+}
+
+.title {
+    @apply text-[100px] sm:text-[120px] md:text-[110px];
+}
+
+.subtitle {
+    @apply text-[70px] sm:text-[80px] md:text-[90px];
+}
+
+.buttons-text {
+    @apply text-base md:text-base font-medium tracking-wide;
+}
+
+.regular-text {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.caption {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.fact {
+    @apply text-[80px] sm:text-[80px] md:text-[80px] font-semibold;
+}

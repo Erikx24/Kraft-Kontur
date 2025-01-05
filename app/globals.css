@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  overflow: visible; /* Ermöglicht normales Scrollen */
+}
+
+body {
+  position: relative;
+  scroll-behavior: auto; /* Deaktiviert nativen Smooth-Scroll */
+}
