@@ -35,12 +35,14 @@ const page = () => {
       initial={{ opacity: 0, y: 50, scale: 0.5 }} 
       animate={{ opacity: 1, y: 0, scale: 1 }} 
       transition={{ delay: index * 0.1, duration: 1, ease: [0, 0.71, 0.2, 1.01] }}
-      className="min-w-[300px] w-full max-w-[500px] rounded-2xl border-2 border-main-10/10 px-4 pt-2 pb-5 bg-black shadow-md"
+      className="min-w-[300px] flex flex-col justify-between w-full max-w-[500px] rounded-2xl border-2 border-main-10/10 px-4 pt-2 pb-5 bg-black shadow-md"
       key={item.name}
     >
+      <div>
       <BsQuote className="text-4xl font-medium -mb-4" />
       <div className="relative regular-text z-20 text-base leading-[1.6] text-[#DDDDDD] font-inter mt-4 mb-4">
         {item.content}
+      </div>
       </div>
       <div className="flex justify-between items-center">
         <div className="flex items-center">
