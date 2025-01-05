@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BiMailSend, BiPhone } from 'react-icons/bi'
-import { FaInstagram } from 'react-icons/fa'
+import { BiMailSend } from 'react-icons/bi'
 
 const Footer = () => {
   return (

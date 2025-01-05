@@ -1,12 +1,8 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
-import { i, image } from 'framer-motion/client';
 import { CardStack } from './ui/card-stack';
-import { cn } from '@/lib/utils';
 import LinkButton from './linkButton';
-import { GiBubbleField, GiBubbles } from 'react-icons/gi';
 import { ImBubble } from 'react-icons/im';
-import Image from 'next/image';
 import { REVIEWS } from '../data/reviews'
 
 

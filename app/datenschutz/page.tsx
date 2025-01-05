@@ -2,9 +2,6 @@ import LinkButton from '@/components/linkButton'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import { BiArrowBack } from 'react-icons/bi'
-import Image from 'next/image'
-import { BsQuote } from 'react-icons/bs'
-import { motion } from 'framer-motion'
 import Footer from '@/components/Footer'
 
 const page = () => {

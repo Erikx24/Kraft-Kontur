@@ -1,13 +1,12 @@
 "use client";
-import React, { useState, useEffect, useRef } from 'react';
-import { AnimatePresence, delay, motion} from "framer-motion";
-import Link from "next/link";
+import React from 'react';
+import { motion} from "framer-motion";
 import Image from 'next/image'
-import { FaArrowDown, FaArrowDown19, FaArrowDownShortWide, FaChevronDown, FaExclamation } from 'react-icons/fa6';
 import LinkButton from './linkButton';
 
 
 const HeroMobile = () => {
+  {/*
   const [isVideoEnded, setIsVideoEnded] = useState(false);
   const videoRef = useRef(null);
 
@@ -15,6 +14,7 @@ const HeroMobile = () => {
   const handleVideoEnd = () => {
     setIsVideoEnded(true);
   };
+  */}
   return (
     <div
       id="home"

@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { BsQuote } from "react-icons/bs";
 
-let interval: any;
+let interval: ReturnType<typeof setInterval>;
 
 type Card = {
   id: number;
@@ -32,6 +32,7 @@ export const CardStack = ({
 
     return () => clearInterval(interval);
   }, []);
+
   const startFlipping = () => {
     interval = setInterval(() => {
       setCards((prevCards: Card[]) => {

@@ -1,12 +1,8 @@
 "use client"
-import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
-import ContactForm from './ui/contactform'
 import { BiMailSend, BiMapPin, BiPhone } from 'react-icons/bi'
 import "./css/text.css"
-import { PiNavigationArrowBold, PiNeedle, PiNetworkBold } from 'react-icons/pi'
-import { TbNeedle } from 'react-icons/tb'
 
 const Contact = () => {
 

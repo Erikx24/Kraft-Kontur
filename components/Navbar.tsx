@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import { useState } from "react";
 import { FaXmark } from 'react-icons/fa6';
-import { PiInstagramLogoFill } from 'react-icons/pi'
 import { RiMenu3Line } from 'react-icons/ri'
 import { AnimatePresence, motion } from "framer-motion"
 import Link from 'next/link';

@@ -1,12 +1,13 @@
 "use client";
-import React, { useState, useEffect, useRef } from 'react';
-import { AnimatePresence, delay, motion} from "framer-motion";
+import React from 'react';
+import { motion} from "framer-motion";
 import Image from 'next/image'
 import "./css/text.css"
 import LinkButton from './linkButton';
 
 
 const HeroNew = () => {
+  {/*
   const [isVideoEnded, setIsVideoEnded] = useState(false);
   const videoRef = useRef(null);
 
@@ -14,7 +15,7 @@ const HeroNew = () => {
   const handleVideoEnd = () => {
     setIsVideoEnded(true);
   };
-  
+  */}
   return (
     <div
       id="home"
