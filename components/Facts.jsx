@@ -33,7 +33,7 @@ const Facts = () => {
 
   return (
     <div ref={counterRef} className='w-full h-fit px-5 max-w-5xl mx-auto flex flex-col gap-5 md:flex-row justify-between items-center top-32'>
-        <div className='relative flex justify-center items-center'>
+        <div className='relative flex justify-center items-center hover:scale-[1.03] transition-all'>
           <Image src='/facts/1.png' width={266} height={187} quality={60} priority={true} className='' alt={''}/>
           <div className='absolute text-white w-full h-full flex flex-col justify-center items-end p-4'>
             <span className='flex flex-row items-center text-end fact font-inter'>
@@ -43,7 +43,7 @@ const Facts = () => {
           </div>
         </div>
 
-        <div className='relative flex justify-center items-center'>
+        <div className='relative flex justify-center items-center hover:scale-[1.03] transition-all'>
           <Image src='/facts/2.png' width={266} height={187} quality={60} priority={true} className='' alt={''}/>
           <div className='absolute text-white w-full h-full flex flex-col justify-center items-end p-4'>
           <span className='flex flex-row items-center text-end fact font-inter'>
@@ -53,7 +53,7 @@ const Facts = () => {
           </div>
         </div>
 
-        <div className='relative flex justify-center items-center'>
+        <div className='relative flex justify-center items-center hover:scale-[1.03] transition-all'>
           <Image src='/facts/3.png' width={266} height={187} quality={60} priority={true} className='' alt={''}/>
           <div className='absolute text-white w-full h-full flex flex-col justify-center items-end p-4'>
           <span className='flex flex-row items-center text-end fact font-inter'>

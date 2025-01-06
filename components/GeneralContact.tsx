@@ -2,6 +2,7 @@ import React from 'react'
 import Probetraining from './Probetraining'
 import Contact from './Contact'
 import ContactForm from './ui/contactform'
+import { motion } from 'framer-motion'
 
 const GeneralContact = () => {
   return (
@@ -15,9 +16,10 @@ const GeneralContact = () => {
             <Contact />
 
         </div>
-        <div className='w-fit h-fit hidden lg:block sticky top-[25vh] '>
+        <motion.div initial={{ scale: 0.7, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} transition={{ duration: 1, ease: [0, 0.71, 0.2, 1.01] }} viewport={{ once: true, amount: 1 }}
+        className='w-fit h-fit hidden lg:block sticky top-[25vh] '>
         <ContactForm />
-        </div>
+        </motion.div>
         </div>
   )
 }

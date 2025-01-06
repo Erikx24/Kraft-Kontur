@@ -49,7 +49,7 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="w-full max-w-md flex flex-col items-center bg-gradient-to-tr
-     from-stone-950/40 to-stone-950/10 border border-stone-400/20 shadow-inner rounded-xl pt-5 px-5 pb-12 font-inter"
+     from-stone-950/40 to-stone-950/10 border border-stone-400/20 rounded-xl pt-5 px-5 pb-12 font-inter hover:scale-[1.01] transition-all"
      style={{ boxShadow: 'inset 0 0 30px 0 rgba(151, 156, 109, 0.08)' }}>
       
 <div className='w-full flex justify-center '>

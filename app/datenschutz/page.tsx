@@ -31,13 +31,13 @@ Avenue Huart Hamoir 71,<br />
 1030 Brussels, Belgium</span>
 <br/><span className={styles.s}>3. Allgemeine Hinweise und Pflicht&shy;informationen</span><br/>
 <span className={styles.s2}>Datenschutz</span><br/> <span className={styles.e}>Die Betreiber dieser Seiten nehmen den Schutz Ihrer pers&ouml;nlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerkl&auml;rung.</span> <span className={styles.e}>Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie pers&ouml;nlich identifiziert werden k&ouml;nnen. Die vorliegende Datenschutzerkl&auml;rung erl&auml;utert, welche Daten wir erheben und wof&uuml;r wir sie nutzen. Sie erl&auml;utert auch, wie und zu welchem Zweck das geschieht.</span> <span className={styles.e}>Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.&nbsp;B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht m&ouml;glich.</span>
-<br/><span className={styles.s2}>Hinweis zur verantwortlichen Stelle</span><br/> <span className={styles.e}>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</span> <span className={styles.e}>Benjamin Leistikow<br />
+<br/><span className={styles.s2}>Hinweis zur verantwortlichen Stelle</span><br/> <span className={styles.e}>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</span> <br/><span className={styles.e}>Benjamin Leistikow<br />
 Kraft &amp; Kontur<br />
 Silostra&szlig;e 19<br />
 65929 Frankfurt am Main</span>
 
 <span className={styles.e}>Telefon: +49 160 2377404<br />
-E-Mail: ben@kraft-kontur.de</span>
+E-Mail: ben@kraft-kontur.de</span><br/>
  <span className={styles.e}>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.</span>
 
  <br/><span className={styles.s2}>Speicherdauer</span><br/> <span className={styles.e}>Soweit innerhalb dieser Datenschutzerkl&auml;rung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck f&uuml;r die Datenverarbeitung entf&auml;llt. Wenn Sie ein berechtigtes L&ouml;schersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gel&ouml;scht, sofern wir keine anderen rechtlich zul&auml;ssigen Gr&uuml;nde f&uuml;r die Speicherung Ihrer personenbezogenen Daten haben (z.&nbsp;B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die L&ouml;schung nach Fortfall dieser Gr&uuml;nde.</span>
