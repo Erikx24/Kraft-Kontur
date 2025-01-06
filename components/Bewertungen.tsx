@@ -12,7 +12,7 @@ const Bewertungen = () => {
   return (
     <div id='bewertungen' className='px-5 -translate-y-20 w-full max-w-[1500px] mx-auto flex flex-col justify-center items-center gap-10'>
 <InfiniteMovingCards items={REVIEWS} speed='slow' pauseOnHover={false} className='hidden md:block'/>
-<CardStack items={REVIEWS}/>
+<CardStack items={REVIEWS} />
 
 <LinkButton href={'/erfahrungen'} text={'mehr Erfahrungen'} icon={<ImBubble />} variant='secondary'/>
 </div>

@@ -8,8 +8,10 @@ import {
     AccordionHeader,
     AccordionBody
   } from "@material-tailwind/react";
+import { BiChevronDown } from 'react-icons/bi';
+
 const BenefitsMobile = () => {
-    const [open, setOpen] = React.useState(1);
+    const [open, setOpen] = React.useState(0);
     
     const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
     
@@ -24,7 +26,7 @@ const BenefitsMobile = () => {
             </motion.div>
 
             <div className='flex flex-col justify-start items-center font-inter w-full max-w-2xl'>
-            <Accordion open={open === 2} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+            <Accordion open={open === 2} icon={<BiChevronDown />} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader onClick={() => handleOpen(2)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <div className='w-full flex flex-row items-center gap-4 sm:gap-5 sm:px-5 text-base sm:text-lg'>
             <Image src='icons/1-1.svg' width={30} height={30} quality={80} alt={'Individuelles 1:1-Training'} className='shadow-2xl shadow-black'/>Persönliche Betreuung
@@ -38,7 +40,7 @@ const BenefitsMobile = () => {
       </Accordion>
             
       
-      <Accordion open={open === 3} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+      <Accordion open={open === 3}  icon={<BiChevronDown />} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader onClick={() => handleOpen(3)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <div className='w-full flex flex-row items-center gap-4 sm:gap-5 sm:px-5 text-base sm:text-lg text-start'>
             <Image src='icons/food.svg' width={30} height={30} quality={80} alt={'Ernährungsberatung'} className='shadow-2xl shadow-black'/>Zielgerechte Ernährungsberatung 
@@ -50,7 +52,7 @@ const BenefitsMobile = () => {
         </div>
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 1}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+      <Accordion open={open === 1}  icon={<BiChevronDown />}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader onClick={() => handleOpen(1)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <div className='w-full flex flex-row items-center gap-4 sm:gap-5 sm:px-5 text-base sm:text-lg'>
             <Image src='icons/Ziel.svg' width={30} height={30} quality={80} alt={'Effiziente Zielerreichung'} className='shadow-2xl shadow-black'/>Zielgerichtete Beratung
@@ -62,7 +64,7 @@ const BenefitsMobile = () => {
         </div>
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 4} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+      <Accordion open={open === 4}  icon={<BiChevronDown />} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader onClick={() => handleOpen(4)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <div className='w-full flex flex-row items-center gap-4 sm:gap-5 sm:px-5 text-base sm:text-lg text-start'>
             <Image src='icons/brain.svg' width={30} height={30} quality={80} alt={'Wissen und Expertise'} className='shadow-2xl shadow-black'/>Ausgebildetes & aktuelles Fachwissen

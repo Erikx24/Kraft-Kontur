@@ -16,7 +16,7 @@ const GeneralContact = () => {
             <Contact />
 
         </div>
-        <motion.div initial={{ scale: 0.7, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} transition={{ duration: 1, ease: [0, 0.71, 0.2, 1.01] }} viewport={{ once: true, amount: 1 }}
+        <motion.div initial={{ scale: 0.7, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} transition={{ duration: 1, ease: [0, 0.71, 0.2, 1.01] }} viewport={{ once: true, amount: 0.2 }}
         className='w-fit h-fit hidden lg:block sticky top-[25vh] '>
         <ContactForm />
         </motion.div>
