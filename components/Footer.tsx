@@ -22,7 +22,7 @@ const Footer = () => {
 
         <a href='mailto:ben@kraftundkontur.de' className='flex flex-row gap-2 items-center '>
           <BiMailSend />
-          <p className='line-clamp-1 font-inter'>ben@kraft&kontur.de</p>
+          <p className='line-clamp-1 font-inter'>ben@kraft-kontur.de</p>
         </a>
 
 

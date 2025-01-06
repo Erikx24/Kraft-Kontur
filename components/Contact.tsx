@@ -83,7 +83,7 @@ const Contact = () => {
             <div className='flex flex-col gap-4'>
             <div className='text-white info'>Mail</div>
             <div className='text-white regular-text opacity-70'>Gerne kannst du mich auch 24/7 unter meiner Mail erreichen.</div>
-            <a href='mailto:ben@kraftundkontur.de' className='text-white underline underline-offset-4 caption'>ben@kraftundkontur.de</a>
+            <a href='mailto:ben@kraft-kontur.de' className='text-white underline underline-offset-4 caption'>ben@kraft-kontur.de</a>
 
 
             </div>

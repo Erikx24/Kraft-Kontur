@@ -5,7 +5,7 @@ export const REVIEWS = [
   {
     id: 1,
     name: "Jerome",
-    imagePath: "/testimonials/jerome.png",
+    imagePath: "/testimonials/Jerome.png",
     content: (
       <p>
         Auch als erfahrener Fitnessstudio-Besucher lerne ich bei Ben jedes Mal dazu. Er optimiert meine Übungsausführung, sorgt für Abwechslung und bringt mich <Highlight>jedes Mal ans Limit</Highlight>. Die Trainings mit ihm sind die intensivsten und effektivsten des Jahres!
@@ -15,7 +15,7 @@ export const REVIEWS = [
   {
     id: 2,
     name: "Dounia",
-    imagePath: "/testimonials/dounia.png",
+    imagePath: "/testimonials/Dounia.png",
     content: (
       <p>
         Einfach der Beste! Nicht nur ein erfahrener und professioneller Trainer, sondern auch ein echter Freund, der immer an einen glaubt – selbst in schweren Momenten. Er hat meine <Highlight>Begeisterung für den Sport entfacht</Highlight> und unterstützt mich dabei, meine Ziele zu erreichen. Ich bin so dankbar, ihn an meiner Seite zu haben!
@@ -35,7 +35,7 @@ export const REVIEWS = [
   {
     id: 4,
     name: "Hülya",
-    imagePath: "/testimonials/hülya.png",
+    imagePath: "/testimonials/Hülya.png",
     content: (
       <p>
         Als ich mit 38 Jahren mit dem Kraftsport angefangen habe, war Ben als Personaltrainer die beste Wahl. Mit ihm habe ich nicht nur ein Trainer für <Highlight>Kraft-und Muskelaufbau</Highlight> an meiner Seite, sondern auch ein Trainer der <Highlight>Cardio und Ernährung</Highlight> nicht außer Acht lässt. Er hat meinen Trainingsplan so gut an meinen Alltag angepasst, sodass ich fokussiert mein Sport ausüben kann. Ben ist ein professioneller, zielorientierter, feinfühliger Personaltrainer, dem es wichtig ist, dass sein Kunde trotz anstrengendem Training die Trainingsfläche verschwitzt, dennoch mit einem lächeln im Gesicht verlässt. Danke Ben für deine tolle Leistung!
@@ -55,7 +55,7 @@ export const REVIEWS = [
   {
     id: 6,
     name: "Thomas",
-    imagePath: "",
+    imagePath: "/testimonials/Thomas.png",
     content: (
       <p>
         Nach meiner aktiven Fußballkarriere stand ich vor der Herausforderung, meine Fitness trotz beruflicher und familiärer Verpflichtungen aufrechtzuerhalten. Ben hat mit einem individuell abgestimmten Trainingsplan genau die <Highlight>richtige Balance</Highlight> geschaffen. Durch sein Fachwissen und seine einfühlsame Betreuung habe ich nicht nur zu alter Stärke zurückgefunden, sondern sogar neue Ziele erreicht. Was Ben auszeichnet, ist seine unerschöpfliche Geduld, seine Fähigkeit, immer wieder zu motivieren, und seine disziplinierte Herangehensweise - Eigenschaften, die selbst im Profisport selten in dieser Intensität vorkommen. Besonders beeindruckend war seine Ernährungsberatung, die mir nachhaltige Veränderungen gebracht hat: Ich schlafe besser, habe mehr Energie im Alltag und fühle mich insgesamt gesünder und leistungsfähiger. Mit Ben habe ich nicht nur einen außergewöhnlichen Trainer, sondern auch einen echten Wegbegleiter gefunden, der mich in jeder Hinsicht weitergebracht hat. Für diese Erfahrung bin ich zutiefst dankbar und kann ihn nur wärmstens empfehlen!

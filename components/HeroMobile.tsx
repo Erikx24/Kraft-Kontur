@@ -76,7 +76,7 @@ className="title font-bebas-neue text-white flex flex-col leading-[0.9]">
 </div>
 
 <motion.div
-className="items-center z-20 mt-5  ml-48 sm:ml-64 shadow-xl transform transition-shadow rounded-2xl shadow-main-300/35 hover:shadow-main-300/50"
+className="items-center z-20 mt-5  ml-48 sm:ml-64 transform transition-shadow rounded-2xl hover:shadow-main-300/50"
 initial={{ opacity: 0, scale: 0.5 }}
 animate={{ opacity: 1, scale: 1 }}
 transition={{

@@ -1,0 +1,41 @@
+
+.s {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff  ;
+  margin-bottom: 0.75rem;
+}
+
+.s2 {
+  font-size:1.5rem;
+  font-weight: 400; 
+  color: #ffffff  ;
+  margin-bottom: 0.5rem;
+}
+
+.s3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.te {
+  font-size: 0.5rem;
+  font-weight: 200;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 0.3rem;
+}
+
+.list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #dddddd;
+}
+
+
+
+.listItem {
+  margin-bottom: 0.5rem;
+}

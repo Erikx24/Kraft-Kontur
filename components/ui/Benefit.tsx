@@ -14,7 +14,7 @@ const Benefit: React.FC<BenefitProps> = ({ iconSrc, title, description }) => {
 
     return (
         <motion.div 
-            className='flex flex-row justify-center items-start gap-5 w-fit h-20 sm:h-16'
+            className='flex flex-row justify-center items-start gap-5 w-fit'
             whileHover={{ y: -20 }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}

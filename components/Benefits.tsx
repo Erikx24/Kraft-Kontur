@@ -14,16 +14,8 @@ const Benefits = () => {
                 <div className='tracking-wide font-normal subtitle translate-x-24'>ich mit</div>
             </motion.div>
 
-            <div className='flex flex-col justify-center items-center font-inter w-full gap-20 ml-[5%]'>
+            <div className='flex flex-col justify-center items-center font-inter w-full gap-20'>
 
-                <motion.div initial={{ opacity: 0, y: 50, x: 0 }} whileInView={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 0.3, duration: 1, ease: [0, 0.71, 0.2, 1.01] }}
-                    viewport={{
-                        once: false,
-                        amount: 0.5 // Trigger when 100% of the component is visible
-                    }}
-                    className='w-full flex justify-center'>
-                    <Benefit iconSrc='icons/Ziel.svg' title='Effiziente Zielerreichung' description='Schnellere Ergebnisse dank gezielter und effektiver Methoden.' />
-                </motion.div>
 
                 <div className='flex flex-row w-full items-center justify-between'>
 
@@ -33,7 +25,7 @@ const Benefits = () => {
                             amount: 0.5 // Trigger when 100% of the component is visible
                         }}
                         className='w-full flex justify-center'>
-                        <Benefit iconSrc='icons/1-1.svg' title='Individuelles 1:1-Training' description='Maßgeschneidertes Training für deine persönlichen Ziele und deinen Körper.' />
+                        <Benefit iconSrc='icons/1-1.svg' title='Persönliche Betreuung' description='Maßgeschneidertes Training für deine persönlichen Ziele und deinen Körper.' />
                     </motion.div>
 
                     <motion.div initial={{ opacity: 0, y: 10, x: -50 }} whileInView={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 0.5, duration: 1, ease: [0, 0.71, 0.2, 1.01] }}
@@ -42,7 +34,7 @@ const Benefits = () => {
                             amount: 0.5 // Trigger when 100% of the component is visible
                         }}
                         className='w-full flex justify-center'>
-                        <Benefit iconSrc='icons/motivation.svg' title='Motivation und Unterstützung' description='Gemeinsam dranbleiben und über dich hinauswachsen.' />
+                        <Benefit iconSrc='icons/Ziel.svg' title='Zielgerichtete Beratung' description=' Schnellere Ergebnisse dank gezielter und effektiver Methoden.' />
                     </motion.div>
 
                 </div>
@@ -55,7 +47,7 @@ const Benefits = () => {
                             amount: 0.5 // Trigger when 100% of the component is visible
                         }}
                         className='w-full flex justify-center'>
-                        <Benefit iconSrc='icons/food.svg' title='Ernährungsberatung' description='Optimale Ernährung, abgestimmt auf deinen Lebensstil und Ziele.' />
+                        <Benefit iconSrc='icons/food.svg' title='Zielgerechte Ernährungsberatung ' description='Optimale Ernährung, abgestimmt auf deinen Lebensstil und Ziele.' />
                     </motion.div>
 
                     <motion.div initial={{ opacity: 0, y: -20, x: -50 }} whileInView={{ opacity: 1, y: 0, x: 0 }} transition={{ delay: 0.6, duration: 1, ease: [0, 0.71, 0.2, 1.01] }}
@@ -64,7 +56,7 @@ const Benefits = () => {
                             amount: 0.5 // Trigger when 100% of the component is visible
                         }}
                         className='w-full flex justify-center'>
-                        <Benefit iconSrc='icons/brain.svg' title='Wissen und Expertise' description='Profitiere von Erfahrung und neuesten Trainingsmethoden.' />
+                        <Benefit iconSrc='icons/brain.svg' title='Ausgebildetes & aktuelles Fachwissen' description='Profitiere von Erfahrung und neuesten Trainingsmethoden.' />
                     </motion.div>
 
                 </div>
