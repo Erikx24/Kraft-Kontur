@@ -6,8 +6,7 @@ import "./css/text.css"
 import {
     Accordion,
     AccordionHeader,
-    AccordionBody,
-    AccordionStylesType
+    AccordionBody
   } from "@material-tailwind/react";
 const BenefitsMobile = () => {
     const [open, setOpen] = React.useState(1);
