@@ -34,7 +34,6 @@ const Footer = () => {
 
 <div className='flex flex-col'>
 <p className='font-semibold text-hf-80'>Startseite</p>
-<Link className='font-light' href="/#bewertungen">Erfahrungen</Link>
 <Link className='font-light' href="/#vorteile">Vorteile</Link>
 <Link className='font-light' href="/#about">Über mich</Link>
 <Link className='font-light' href="/#termin">Probetraining</Link>
