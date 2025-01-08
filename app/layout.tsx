@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
-import favicon from "../public/favicon.png";
 
 // Font-Imports
 const inter = Inter({
