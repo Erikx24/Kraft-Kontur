@@ -61,7 +61,7 @@ const Contact = () => {
 
             <div className='flex flex-col gap-4'>
             <div className='text-white info'>Telefon</div>
-            <div className='text-white regular-text opacity-70'>Es soll schnell gehen? Erreiche mich zwischen 8-22 unter folgenden Nummer.</div>
+            <div className='text-white regular-text opacity-70'>Es soll schnell gehen? Erreiche mich zwischen 8-22 unter folgender Nummer.</div>
             <a href="tel:+491602377404" className='text-white underline underline-offset-4 caption'>+49 160 2377404</a>
 
 
