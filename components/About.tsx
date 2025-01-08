@@ -78,11 +78,11 @@ const About = () => {
         variants={item}
       >
         <Image
-          src={'/Ben.png'}
+          src={'/Ben2.png'}
           alt={'Über mich Bild'}
           width={400}
           height={200}
-          className='[mask-image:linear-gradient(to_bottom,white_70%,transparent)] translate-y-40 md:translate-y-0 z-0 opacity-80'
+          className='[mask-image:linear-gradient(to_bottom,white_70%,transparent)] translate-y-40 md:translate-y-0 z-0'
           quality={40}
         />
       </motion.div>

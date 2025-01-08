@@ -13,7 +13,6 @@ const ContactForm = () => {
     firstName: '',
     lastName: '',
     email: '',
-    phone: '',
     message: '',
   });
 
@@ -31,10 +30,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_y5p5u6c',        // Service ID
-      'template_7uhoemc',       // Template ID
+      'service_bb5xezm',        // Service ID
+      'template_bkuhyzc',       // Template ID
       formData,                 // Form Data
-      'lHpAmVVB4WUmQ5H3I'
+      'g91dwBggINzadA38e'
     ).then(
       () => {
         alert('Nachricht erfolgreich gesendet!');
