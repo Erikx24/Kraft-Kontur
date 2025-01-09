@@ -41,7 +41,7 @@ const Contact = () => {
 
       <motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.8, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
        className="font-bebas-neue text-white flex flex-col items-end leading-[0.9]">
-          <div className='subtitle'>Kontakt</div>
+          <h2 className='subtitle'>Kontakt</h2>
          </motion.div>
 
       <motion.div
@@ -60,8 +60,8 @@ const Contact = () => {
             </a>
 
             <div className='flex flex-col gap-4'>
-            <div className='text-white info'>Telefon</div>
-            <div className='text-white regular-text opacity-70'>Es soll schnell gehen? Erreiche mich zwischen 8-22 unter folgender Nummer.</div>
+            <h3 className='text-white info'>Telefon</h3>
+            <p className='text-white regular-text opacity-70'>Es soll schnell gehen? Erreiche mich zwischen 8-22 unter folgender Nummer.</p>
             <a href="tel:+491602377404" className='text-white underline underline-offset-4 caption'>+49 160 2377404</a>
 
 
@@ -81,8 +81,8 @@ const Contact = () => {
             </a>
 
             <div className='flex flex-col gap-4'>
-            <div className='text-white info'>Mail</div>
-            <div className='text-white regular-text opacity-70'>Gerne kannst du mich auch 24/7 unter meiner Mail erreichen.</div>
+            <h3 className='text-white info'>Mail</h3>
+            <p className='text-white regular-text opacity-70'>Gerne kannst du mich auch 24/7 unter meiner Mail erreichen.</p>
             <a href='mailto:ben@kraft-kontur.de' className='text-white underline underline-offset-4 caption'>ben@kraft-kontur.de</a>
 
 
@@ -102,8 +102,8 @@ const Contact = () => {
             </a>
 
             <div className='flex flex-col gap-4'>
-            <div className='text-white info'>Standort</div>
-            <div className='text-white regular-text opacity-70'>Lieber persönlich? Du findest mich im Colosseum Fitness in Frankfurt-Höchst.</div>
+            <h3 className='text-white info'>Standort</h3>
+            <p className='text-white regular-text opacity-70'>Lieber persönlich? Du findest mich im Colosseum Fitness in Frankfurt-Höchst.</p>
             <a href='https://maps.app.goo.gl/D8YFMEd6ZoQwVTMF6' target="_blank" rel="noopener noreferrer" className='text-white underline underline-offset-4 caption'>Silostraße 19, 65929 Frankfurt am Main</a>
 
 

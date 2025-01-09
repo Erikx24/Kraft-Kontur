@@ -39,7 +39,7 @@ const Facts = () => {
             <span className='flex flex-row items-center text-end fact font-inter'>
             {isVisible && <CountUp end={600} />}+
             </span>
-            <p className='text-end info font-inter text-main-200'>Trainingsstunden</p>
+            <h3 className='text-end info font-inter text-main-200'>Trainingsstunden</h3>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Facts = () => {
           <span className='flex flex-row items-center text-end fact font-inter'>
             {isVisible && <CountUp end={8} />}+
             </span>
-            <p className='text-end info font-inter text-main-200'>Jahre Erfahrung</p>
+            <h3 className='text-end info font-inter text-main-200'>Jahre Erfahrung</h3>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const Facts = () => {
           <span className='flex flex-row items-center text-end fact font-inter'>
             {isVisible && <CountUp end={30} />}+
             </span>
-            <p className='text-end info font-inter text-main-200'>zufriedene Kunden</p>
+            <h3 className='text-end info font-inter text-main-200'>zufriedene Kunden</h3>
           </div>
         </div>
 

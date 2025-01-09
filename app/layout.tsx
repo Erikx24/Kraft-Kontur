@@ -14,19 +14,26 @@ const bebas = Bebas_Neue({
 
 // Metadata
 export const metadata: Metadata = {
-  title: "Personal Trainer Frankfurt | Kraft & Kontur",
-  description: "Gesund und (wieder) Fit werden! - Personal Trainer aus Hanau: Individuelles Training für Ihre Fitnessziele. Ob Muskelaufbau, Gewichtsreduktion oder Rehabilitation – starten Sie jetzt mit einem maßgeschneiderten Fitnessprogramm!",
+  title: "Kraft & Kontur - Personal Training Frankfurt",
+  description: "Zertifizierter Personal Trainer in Frankfurt mit über 16 Jahren Erfahrung. Ben bietet individuelle und ganzheitliche Fitnessprogramme, um Deine Gesundheits- und Fitnessziele zu erreichen. Jetzt Dein Wohlbefinden steigern und Deine körperliche Leistungsfähigkeit verbessern!",
   icons: '/favicon.png',
   keywords: 
-  [ "Personal Trainer Hanau",
-  "individuelles Training Hanau",
-  "Fitnessziele erreichen Hanau",
-  "Muskelaufbau Hanau",
-  "Gewichtsreduktion Hanau",
-  "Rehabilitationstraining Hanau",
-  "Fitnessprogramm Hanau",
-  "Personal Training Hanau",
-  "Personal Coach Hanau"]
+  [ "Personal Trainer Frankfurt",
+  "zertifizierter Personal Trainer",
+  "Fitnesscoach Frankfurt",
+  "Fitnessziele erreichen",
+  "ganzheitliches Training",
+  "individuelle Trainingspläne",
+  "Trainingserfahrung",
+  "körperliche Leistungsfähigkeit steigern",
+  "Wohlbefinden verbessern",
+  "Fitness für Anfänger",
+  "Training für erfahrene Athleten",
+  "Fitnessberatung Frankfurt",
+  "Gesundheit und Fitness",
+  "Motivation im Training",
+  "professioneller Trainer Frankfurt"
+]
   
 };
 

@@ -23,7 +23,7 @@ const HeroMobile = () => {
         <div className='absolute w-full h-screen flex justify-center items-center bg-main-900'>
         <Image 
         src="/BG-Bild(Mobile).png" 
-        alt="" 
+        alt="Hintergrundbild, das eine Person beim Training zeigt" 
         quality={70} 
         loading="eager" 
         fill
@@ -63,15 +63,15 @@ const HeroMobile = () => {
           <div className="flex flex-col items-center justify-start text-center h-full max-w-7xl mx-auto bg-ecs pt-[25vh]">
 
 <div className="flex flex-col justify-end items-center gap-5 z-10">
-<motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 1, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
-className="info text-stone-200/80 font-inter">Forme, was dich ausmacht
-</motion.div>
+<motion.h2 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 1, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
+className="info text-stone-200/80 font-inter mr-20">Forme, was dich ausmacht
+</motion.h2>
 
-<motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.8, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
+<motion.h1 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.8, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
 className="title font-bebas-neue text-white flex flex-col leading-[0.9]">
   <div className='mr-20'>Kraft &</div>
   <div className='ml-20'>Kontur</div>
-  </motion.div>
+  </motion.h1>
 
 </div>
 

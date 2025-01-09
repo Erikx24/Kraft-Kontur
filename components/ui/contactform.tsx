@@ -52,7 +52,7 @@ const ContactForm = () => {
      style={{ boxShadow: 'inset 0 0 30px 0 rgba(151, 156, 109, 0.08)' }}>
       
 <div className='w-full flex justify-center '>
-        <h2 className='text-main-10 info pb-8'>Kontaktformular</h2>
+        <h3 className='text-main-10 info pb-8'>Kontaktformular</h3>
         
         </div>
         <div className="mb-8 flex flex-row w-full justify-between">

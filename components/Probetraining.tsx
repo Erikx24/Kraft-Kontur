@@ -36,12 +36,12 @@ const Probetraining = () => {
     id='termin'
     className='flex flex-col justify-center lg:justify-between gap-8 w-full max-w-lg items-center lg:items-start'>
 
-        <motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.8, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
+        <motion.h2 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.8, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
          className="font-bebas-neue text-white flex flex-col items-end leading-[0.9]">
             <div className='subtitle'>Probetraining</div>
            <div className='tracking-wide font-normal text-[25px] md:text-[30px]'>Buchen</div>
            
-           </motion.div>
+           </motion.h2>
 
         <motion.div
           className='flex flex-col space-y-2 items-center lg:items-start'
