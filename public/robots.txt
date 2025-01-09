@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.kraft-kontur.de
+
+# Sitemaps
+Sitemap: https://www.kraft-kontur.de/sitemap.xml
