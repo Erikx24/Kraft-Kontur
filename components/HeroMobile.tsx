@@ -3,7 +3,7 @@ import React from 'react';
 import { motion} from "framer-motion";
 import Image from 'next/image'
 import LinkButton from './linkButton';
-
+import texts from "@/data/texts.json"
 
 const HeroMobile = () => {
   {/*
@@ -64,7 +64,7 @@ const HeroMobile = () => {
 
 <div className="flex flex-col justify-end items-center gap-5 z-10">
 <motion.h1 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 1, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
-className="info text-stone-200/80 font-inter mr-20">Personal Trainig Frankfurt
+className="info text-stone-200/80 font-inter mr-20">{texts.section1.title}
 </motion.h1>
 
 <motion.h2 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.8, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
