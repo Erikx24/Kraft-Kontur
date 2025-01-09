@@ -60,7 +60,7 @@ const Contact = () => {
             </a>
 
             <div className='flex flex-col gap-4'>
-            <h3 className='text-white info'>Telefon</h3>
+            <h4 className='text-white info'>Telefon</h4>
             <p className='text-white regular-text opacity-70'>Es soll schnell gehen? Erreiche mich zwischen 8-22 unter folgender Nummer.</p>
             <a href="tel:+491602377404" className='text-white underline underline-offset-4 caption'>+49 160 2377404</a>
 
@@ -81,7 +81,7 @@ const Contact = () => {
             </a>
 
             <div className='flex flex-col gap-4'>
-            <h3 className='text-white info'>Mail</h3>
+            <h4 className='text-white info'>Mail</h4>
             <p className='text-white regular-text opacity-70'>Gerne kannst du mich auch 24/7 unter meiner Mail erreichen.</p>
             <a href='mailto:ben@kraft-kontur.de' className='text-white underline underline-offset-4 caption'>ben@kraft-kontur.de</a>
 
@@ -102,7 +102,7 @@ const Contact = () => {
             </a>
 
             <div className='flex flex-col gap-4'>
-            <h3 className='text-white info'>Standort</h3>
+            <h4 className='text-white info'>Standort</h4>
             <p className='text-white regular-text opacity-70'>Lieber persönlich? Du findest mich im Colosseum Fitness in Frankfurt-Höchst.</p>
             <a href='https://maps.app.goo.gl/D8YFMEd6ZoQwVTMF6' target="_blank" rel="noopener noreferrer" className='text-white underline underline-offset-4 caption'>Silostraße 19, 65929 Frankfurt am Main</a>
 

@@ -15,7 +15,7 @@ const bebas = Bebas_Neue({
 // Metadata
 export const metadata: Metadata = {
   title: "Kraft & Kontur - Personal Training Frankfurt",
-  description: "Zertifizierter Personal Trainer in Frankfurt mit über 16 Jahren Erfahrung. Ben bietet individuelle und ganzheitliche Fitnessprogramme, um Deine Gesundheits- und Fitnessziele zu erreichen. Jetzt Dein Wohlbefinden steigern und Deine körperliche Leistungsfähigkeit verbessern!",
+  description: "Zertifizierter Personal Trainer in Frankfurt mit 16 Jahren Erfahrung. Ben hilft Dir mit individuellen Fitnessprogrammen, Deine Ziele zu erreichen und Dein Wohlbefinden zu steigern. Jetzt starten!",
   icons: '/favicon.png',
   keywords: 
   [ "Personal Trainer Frankfurt",
@@ -33,8 +33,7 @@ export const metadata: Metadata = {
   "Gesundheit und Fitness",
   "Motivation im Training",
   "professioneller Trainer Frankfurt"
-]
-  
+],
 };
 
 // RootLayout-Komponente
@@ -48,8 +47,9 @@ export default function RootLayout({
       <head >
         <meta name="theme-color" content="#070709" />
         <meta name="color-scheme" content="dark" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover" />
         <meta name="icon" content="/favicon.png"/>
+        <meta name="size-adjust" content="auto" />
       </head>
       <body className={`${inter.className} ${bebas.className} scroll-smooth`}>
         {children}

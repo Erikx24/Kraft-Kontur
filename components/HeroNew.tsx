@@ -55,15 +55,15 @@ const HeroNew = () => {
       <div className="flex flex-col items-center justify-start text-center h-full max-w-7xl mx-auto bg-ecs pr-80 lg:pr-[400px] pt-[45vh]">
 
         <div className="flex flex-col justify-end items-center gap-5 z-10">
-        <motion.h2 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.4, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
-        className="info text-stone-200/80  font-inter">Forme, was dich ausmacht
-        </motion.h2>
+        <motion.h1 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.4, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
+        className="info text-stone-200/80  font-inter">Personal Training Frankfurt
+        </motion.h1>
 
-        <motion.h1 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
+        <motion.h2 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
         className="title font-bebas-neue text-white flex flex-col leading-[0.9]">
           <div>Kraft &</div>
           <div className='ml-20'>Kontur</div>
-          </motion.h1>
+          </motion.h2>
 
         </div>
 

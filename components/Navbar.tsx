@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className='w-full max-w-7xl mx-auto flex flex-row items-center justify-between'>
     <Link href='/#home'><Image src = "/Logo.png" width = {60} height={60} alt={''} className='block lg:hidden'/></Link>
     <div className="hidden lg:flex flex-row z-50 w-full justify-between items-center  max-w-7xl mx-auto ">
-            <Image src = "/Logo.png" width = {60} height={60} alt={''}/>
+            <Image src = "/Logo.png" width = {60} height={60} alt='Logo'/>
             <div className="flex flex-row lg:gap-5 xl:gap-14 items-center justify-center absolute left-1/2 transform 
             -translate-x-1/2 bg-black/30 backdrop-blur-md py-2 px-1 rounded-full">
 

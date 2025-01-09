@@ -14,7 +14,7 @@ const Footer = () => {
 <div className='flex w-full flex-col gap-5 items-center '>
 
 <Link href='/#home'>
-<Image src={'/Logo.png'} alt={'Das Logo von Hartenfeller-Fitness. Es zeigt einen Kopf, welcher für Gesundheit steht. Alles im grünen Stil'} width={120} height={120} className='bg-hf-90 rounded-full p-2'/>
+<Image src={'/Logo.png'} alt={'Das Logo von Kraft & Kontur.'} width={120} height={120} className='bg-hf-90 rounded-full p-2'/>
 </Link>
 
 
