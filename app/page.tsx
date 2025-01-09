@@ -13,6 +13,8 @@ import Benefits from "@/components/Benefits";
 import BenefitsMobile from "@/components/BenefitsMobile";
 
 export default function Home() {
+  const isMobile = window.innerWidth < 768;
+
   return (
     <main className="bg-ecs-white flex justify-center items-center flex-col mx-auto bg-main-900 relative scroll-smooth">
         
@@ -20,11 +22,9 @@ export default function Home() {
           <header className="flex justify-center">
             <Navbar />
           </header>
-          <HeroMobile />
-          <HeroNew />
+          {isMobile ? <HeroMobile /> : <HeroNew />}
           <Bewertungen />
-          <Benefits />
-          <BenefitsMobile />
+          {isMobile ? <BenefitsMobile /> : <Benefits />}
           <Facts />
           <About />
           <GeneralContact />
