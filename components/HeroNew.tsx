@@ -19,7 +19,7 @@ const HeroNew = () => {
   return (
     <div
       id="home"
-      className='w-full min-h-[85vh] 2xl:min-h-[95vh] overflow-hidden hidden md:block'>
+      className='w-full min-h-[85vh] md:min-h-[90vh] 2xl:min-h-[95vh] overflow-hidden hidden md:block'>
       <div className='absolute w-full min-h-[85vh] 2xl:min-h-[95vh] flex justify-center items-center bg-main-900'>
       <Image 
       src="/BG-Bild.jpg" 
@@ -52,7 +52,7 @@ const HeroNew = () => {
       </AnimatePresence>
       */}
         </div>
-      <div className="flex flex-col items-center justify-start text-center h-full max-w-7xl mx-auto bg-ecs pr-80 lg:pr-[400px] pt-[45vh]">
+      <div className="flex flex-col items-center justify-start text-center h-full max-w-7xl mx-auto bg-ecs pr-80 lg:pr-[400px] pt-[30vh] 2xl:pt-[45vh]">
 
         <div className="flex flex-col justify-end items-center gap-5 z-10">
         <motion.h1 initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.4, duration: 1, ease: [0, 0.71, 0.2, 1.01] }} 
