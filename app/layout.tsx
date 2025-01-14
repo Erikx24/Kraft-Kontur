@@ -32,7 +32,9 @@ export const metadata: Metadata = {
   "Fitnessberatung Frankfurt",
   "Gesundheit und Fitness",
   "Motivation im Training",
-  "professioneller Trainer Frankfurt"
+  "professioneller Trainer Frankfurt",
+  "kraft kontur",
+  "kraft und kontur",
 ],
 };
 
