@@ -61,9 +61,15 @@ const page = () => {
           <span className="text-sm leading-[1.6] caption font-inter text-white font-normal">
             {item.name}
           </span>
+          
         </div>
+        
         {item.name !== "Jerome" && <div className="mt-4"></div>}
       </div>
+      {item.name === "Sevdiye" && <span className="text-xs leading-[1.6] font-inter text-white/60 font-normal">
+            62 Jahre
+          </span>
+          }
     </motion.div>
   ))}
 </div>

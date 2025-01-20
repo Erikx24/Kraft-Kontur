@@ -62,4 +62,23 @@ export const REVIEWS = [
       </p>
     ),
   },
+  {
+    id: 7,
+    name: "Sevdiye",
+    imagePath: "",
+    content: (
+      <p>
+        Mein geschätzter Sportcoach Ben!<br />
+        Ich bin sehr dankbar, dass ich Ben bei der Anmeldung im Colosseum kennengelernt habe und<Highlight>möchte ihn aus meinen persönlichen Erfahrungen heraus sehr weiterempfehlen.</Highlight>
+        Ich bin in den letzten 4 Jahren körperlich extrem beeinträchtigt und unbeweglich gewesen und daher keine einfache Kundin für einen Coach!<br />
+        Seine Kompetenz und sein Fachwissen sind beeindruckend, und er überzeugt nicht nur durch seine Professionalität, sondern auch durch seine empathische, ruhige und freundliche Art. Besonders schätze ich seine Fähigkeit, auf<Highlight>individuelle Bedürfnisse einzugehen und reagiert stets ermutigend und besonnen!</Highlight><br />
+        Als langjährige chronische Lungenpatientin mit Metabolischem Syndrom nach 4 Covidinfektionen, befand ich mich körperlich und mental in einem sehr schlechten Zustand. Mit einer halben Lunge hatte ich zusätzlich oft Zweifel, wie viel ich meinem Körper überhaupt zutrauen kann.<br />
+        Doch durch sein Einfühlungsvermögen und gezieltes Training, seine motivierende Art und die stetige Anpassung an meine körperliche Verfassung konnte ich innerhalb<Highlight>kürzester Zeit erstaunliche Fortschritte erzielen</Highlight> – etwas, das ich mir vorher kaum vorstellen konnte.<br />
+        Er nimmt sich immer die Zeit, meine Situation genau zu verstehen, und hat mir nicht nur geholfen, körperlich stärker zu werden, sondern auch mein Vertrauen in meinen Körper zurückzugewinnen.<br />
+        Seine Geduld und sein Engagement sind außergewöhnlich!<br />
+        Wer einen Coach sucht, der mit Herz und Verstand dabei ist, individuell abgestimmte Programme erstellt und einen stets motiviert und unterstützt, ist bei ihm genau richtig. Ich bin unglaublich dankbar für seine Unterstützung und kann ihn ohne Einschränkungen weiterempfehlen!<br />
+        Herzlichst, deine Sev
+      </p>
+    ),
+  },
 ];
